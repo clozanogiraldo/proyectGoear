@@ -1,0 +1,86 @@
+name: appgoeat
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_animations: ^2.2.1
+  page_transition: ^1.1.5
+ 
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: any
+  shared_preferences: any
+
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo.jpg
+    - assets/images/starter-image.jpg
+    - assets/images/one.jpg
+    - assets/images/two.jpg
+    - assets/images/three.jpg
+    - assets/images/four.jpg
+    - assets/images/ital.jpg
+    - assets/images/lasa.jpg
+    - assets/images/ques.jpg
+    - assets/images/carneita.jpg
+    - assets/images/tacos.jpg
+    - assets/images/burros.jpg
+    - assets/images/comimex.jpg
+    - assets/images/dori.jpg
+    - assets/images/ori.jpg
+    - assets/images/ramen.jpg
+    - assets/images/sushi.jpg
+    - assets/images/ori2.jpg
+    - assets/images/hambur.jpg
+    - assets/images/hotdog.jpg
+    - assets/images/pollo.jpg
+    - assets/images/salchi.jpg
+    - assets/images/ensaladaCesar.jpg
+    - assets/images/ensalada1.jpg
+    - assets/images/ensalada2.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
